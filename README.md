@@ -6,4 +6,3 @@
     <br> Personal repository to record my HackerRank history.
 </p>
 
-# May Pak
