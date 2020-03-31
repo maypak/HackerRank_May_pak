@@ -9,3 +9,16 @@
 
 #Time 및 Date 관련
 상황도 다양하게 만나게 될 것이고 대응법도 다양하다. 하나만 바닥까지 파보자.
+
+#자바 Comparable, Comparator
+# ref : http://hochulshin.com/java-comparable-comparator/
+Comparable = 해당 obj를 implement Comparable<T>, @Override int compareTo(T t)를 통해 Arrays.sort 혹은 Collection.sort가 가능하도록 해줌
+Comparator = 외부클래스에서 implement Comparator<T>, @Override int compare(T t1, T t2) 구현 시 Arrays.sort 혹은 Collection.sort가 가능.
+
+#자바 람다식
+노드js랑 다른것같음.
+사용법 제대로 익히자
+
+#자바 스트림
+이것도 js의 스트림이랑 다른것같다
+조금 더 파보자
