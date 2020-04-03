@@ -16,9 +16,17 @@ Comparable = 해당 obj를 implement Comparable<T>, @Override int compareTo(T t)
 Comparator = 외부클래스에서 implement Comparator<T>, @Override int compare(T t1, T t2) 구현 시 Arrays.sort 혹은 Collection.sort가 가능.
 
 #자바 람다식
-노드js랑 다른것같음.
-사용법 제대로 익히자
+노드js랑 다른것같음. > 처음보는 :: 사용법 발견  
+사용법 제대로 익히자.
+
 
 #자바 스트림
 이것도 js의 스트림이랑 다른것같다
 조금 더 파보자
+
+#compareTo
+비교 사용법은 자바 자료구조에서 핵심
+
+#자료구조
+step in & out, 비교, 체이닝 다지기.
+List, Stack, Queue, Dequeue, Map 등은 시간을 들여서 차근차근.
