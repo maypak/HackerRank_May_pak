@@ -30,3 +30,7 @@ Comparator = 외부클래스에서 implement Comparator<T>, @Override int compar
 #자료구조
 step in & out, 비교, 체이닝 다지기.
 List, Stack, Queue, Dequeue, Map 등은 시간을 들여서 차근차근.
+
+#어노테이션
+잘 모른다 전체적으로.
+스프링에 국한된게 아니라 자바 자체 규격인듯함. 자바8이상에 대해 따로 학습해야할듯
