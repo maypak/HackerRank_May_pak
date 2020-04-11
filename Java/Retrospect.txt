@@ -69,3 +69,11 @@ var h = new Human();
 그러나 초기값만 지정해주므로 초기값이 결정되지 않으면 추론불가.
 var i; <- 오류발생
 출처: https://hannamedia.tistory.com/m/81?fbclid=IwAR1mQgBC_QDop4bZwwpWe3H-92AG2ajqDg7srOTjWaDtEcpxoHQQVJ2XGCA
+
+
+#디자인패턴
+팩토리, 싱글턴, 비지터 학습.
+전체적으로 한번 돌아보면 좋겠다.
+
+#MD5
+잘 모른다. 학습하자
