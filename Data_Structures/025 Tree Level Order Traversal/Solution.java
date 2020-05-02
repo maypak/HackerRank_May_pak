@@ -15,20 +15,27 @@ class Node {
 
 class Solution {
 
-	/*
+	/* 
+    
     class Node 
     	int data;
     	Node left;
     	Node right;
 	*/
-	public static int height(Node root) {
-      	// Write your code here.
-        int leftHeight = 0;
-        int rightHeight = 0;
-        leftHeight += (root.left != null) ? (1 + height(root.left)) : 0;
-        rightHeight += (root.right != null) ? (1 + height(root.right)) : 0;
-
-        return leftHeight >= rightHeight ? leftHeight : rightHeight;
+	public static void levelOrder(Node root) {
+        Queue<Node> q =new LinkedList<>();
+        q.add(root);
+        while(!q.isEmpty()){
+            Node node=q.poll();
+            System.out.print(node.data +" ");
+            if(node.left!=null){
+                q.add(node.left);
+            }
+            if(node.right!=null){
+                q.add(node.right);
+            }
+        } 
+      
     }
 
 	public static Node insert(Node root, int data) {
@@ -40,7 +47,7 @@ class Solution {
                 cur = insert(root.left, data);
                 root.left = cur;
             } else {
-                cur = insert(git stroot.right, data);
+                cur = insert(root.right, data);
                 root.right = cur;
             }
             return root;
@@ -56,7 +63,6 @@ class Solution {
             root = insert(root, data);
         }
         scan.close();
-        int height = height(root);
-        System.out.println(height);
+        levelOrder(root);
     }	
 }
