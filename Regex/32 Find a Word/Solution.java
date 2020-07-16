@@ -17,6 +17,7 @@ public class Solution {
         
         int k=Integer.parseInt(br.readLine());
         int count=0;
+        
         while(k-->0){
             count=0;
             String str=br.readLine();
