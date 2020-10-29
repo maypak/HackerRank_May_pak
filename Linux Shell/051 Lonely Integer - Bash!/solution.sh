@@ -1,0 +1,1 @@
+tail -n 1|tr ' ' '\n'|sort -n|uniq -u
