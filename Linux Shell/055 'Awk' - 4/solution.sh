@@ -1,0 +1,1 @@
+awk '{if(NR%2!=0){ORS=";"; print}else{ORS="\n"; print}}'
