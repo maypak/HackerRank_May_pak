@@ -1,0 +1,5 @@
+val1 = int(input())
+val2 = int(input())
+print(val1//val2)
+print(val1%val2)
+print(divmod(val1,val2))
